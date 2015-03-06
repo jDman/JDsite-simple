@@ -28,6 +28,9 @@ var inviewHandler = function($ele) {
 
   $('#projects').hide();
   $('#toggle').click(menuToggle);
+  $('.nav__item').click(function () {
+    menuToggle();
+  });
   $(window).scroll(function(){
     inviewHandler($proj);
   });
