@@ -89,7 +89,7 @@
 
 // Adjacent sibling margins
 
-@mixin doubly($margin: 1em) {
+@mixin doubly($margin: 0.25%) {
 	& + & {
 	  margin-left: $margin;
     @content;

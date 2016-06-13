@@ -1,6 +1,6 @@
-'use strict';
-
 (function () {
+  'use strict';
+
   var navMenu = $('nav ul'),
       isCollapsed = 'is-collapsed-mobile';
   var menuToggle = function () {

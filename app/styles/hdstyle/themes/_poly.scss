@@ -20,10 +20,6 @@ $poly-grid: (
 	gc-19  : #F9E9F9
 );
 
-#AwesomeBooks {
-	margin-left: 0;
-}
-
 // Generate Poly grid display classes
 
 @each $value, $color in $poly-grid {
