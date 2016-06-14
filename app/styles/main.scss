@@ -21,6 +21,15 @@ header {
       left: 20px;
     }
   }
+
+  >a {
+    color: #0584CC;
+    &:hover {
+      color: darken(#0584CC, 15%);
+      background-color: #fff;
+    }
+  }
+
   nav {
     position: fixed;
     display:inline-block;
@@ -131,6 +140,14 @@ $icons-layout: smart;
     max-height: em(400px);
   }
 
+  a {
+    color: #0584CC;
+    &:hover {
+      color: darken(#0584CC, 15%);
+      background-color: #fff;
+    }
+  }
+
   .screenshot {
     background-repeat: no-repeat;
     background-size: cover;
@@ -153,9 +170,22 @@ $icons-layout: smart;
 }
 
 .biocontent {
-  height: em(300px);
   overflow: hidden;
   text-overflow: ellipsis;
+
+  a {
+    color: #0584CC;
+    &:hover {
+      color: darken(#0584CC, 15%);
+      background-color: #fff;
+    }
+  }
+
+  hr {
+    @include mq(medium) {
+  		display: none;
+  	}
+  }
 }
 
 .skills {
